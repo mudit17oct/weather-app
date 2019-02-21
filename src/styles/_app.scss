@@ -1,0 +1,60 @@
+*.html body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 0;
+}
+.filterSearch{
+  position: relative;
+  width: 100%;
+
+  h2{
+    margin: 0;
+    padding: 0 0 0 10px;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .filterNav{
+    background: $color-light-blue;
+    padding: 10px;
+  }
+
+  .filterResult{
+    border: $border-width-sm solid $color-light-gray;
+  }
+ 
+}
+.search-control {
+  float: left;
+  width: 200px;
+  height: 1.5rem;
+  border-radius: 6px;
+  margin: 20px;
+  margin-bottom:5px;
+  text-align: center;
+  font-size: large;
+}
+.list{
+  clear: both;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid rgb(146, 131, 131);
+
+  &-item{
+    margin:10px 0;
+  }
+  
+}
+.back_button{
+  float: left;
+  margin: 20px;
+  padding: 20px;
+}
