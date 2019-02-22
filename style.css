@@ -1,0 +1,50 @@
+*.html body {
+  margin: 0;
+  padding: 0; }
+
+.App {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 0; }
+
+.filterSearch {
+  position: relative;
+  width: 100%; }
+  .filterSearch h2 {
+    margin: 0;
+    padding: 0 0 0 10px;
+    text-align: left;
+    display: inline-block; }
+  .filterSearch .filterNav {
+    background: #dcf2f2;
+    padding: 10px; }
+  .filterSearch .filterResult {
+    border: 1px solid #e3e3e3; }
+
+.search-control {
+  float: left;
+  width: 200px;
+  height: 1.5rem;
+  border-radius: 6px;
+  margin: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: large; }
+
+.list {
+  clear: both;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #928383; }
+  .list-item {
+    margin: 10px 0; }
+
+.back_button {
+  float: left;
+  margin: 20px;
+  padding: 20px; }
+
+/*# sourceMappingURL=style.css.map*/
